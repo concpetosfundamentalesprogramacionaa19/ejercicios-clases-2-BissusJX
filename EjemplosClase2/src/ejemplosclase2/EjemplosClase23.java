@@ -41,6 +41,8 @@ public class EjemplosClase23 {
        
         System.out.println("Su nombre es: "+nombre+"\n\n\t Su apellido"
                 + " es: " +apellido+", edad: " +edad+ "\n Ciudad: " +ciudad);
+        
+        System.out.printf("Su nombre es %s",nombre);
       
     }
     
