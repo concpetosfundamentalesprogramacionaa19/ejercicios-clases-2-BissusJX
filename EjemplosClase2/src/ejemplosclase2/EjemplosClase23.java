@@ -38,11 +38,12 @@ public class EjemplosClase23 {
         
         System.out.println("Ingrese sus ciudad");
         ciudad = entrada.nextLine();
-       
+       /**
         System.out.println("Su nombre es: "+nombre+"\n\n\t Su apellido"
                 + " es: " +apellido+", edad: " +edad+ "\n Ciudad: " +ciudad);
-        
-        System.out.printf("Su nombre es %s",nombre);
+        */
+        System.out.printf("Su nombre es %s\n\n\tSu apellido es %s Su edad es "
+                + "%s Su ciudad es %s",nombre,apellido, edad,ciudad);
       
     }
     
